@@ -10,7 +10,7 @@ class LetterChanges {
   }
 
 
-  public static string LetterChanges(string str) {
+  public static string letterChanges(string str) {
 
     // code goes here  
     StringBuilder newStr = new StringBuilder();

@@ -41,13 +41,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CoderByte
+namespace Codility
 {
     public class CyclicRotation
     {
         public int[] solution(int[] A, int K) {
-           int n = A.Length;        
-            if(n%K == 0)  
+           int n = A.Length;  
+            if(K==0)
+                return A;      
+            else if(n%K == 0 && K!=1)  
                 return A;
             else if(n==0 || n==1)
                 return A;
@@ -64,6 +66,7 @@ namespace CoderByte
             }
             else
             {
+                Console.WriteLine("rotacion generica");
                 int aux =0;
                 for(int i=0; i<K; i++)
                 {
