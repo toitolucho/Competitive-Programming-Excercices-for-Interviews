@@ -1,0 +1,32 @@
+What does the Garbage Collector (GC) in .NET do?
+It ensures that objects that have no references anymore are cleared from the memory
+Which of the following are examples of Razor syntax in .NET?
+@{}
+Which of the following control is used to validate that two fields are equal?
+CompareValidator
+Which of the following is faster and consumes less memory?
+SQLDataReader
+What class does the ASP.NET Web Form class inherit from by default?
+System.Web.GUI.Page
+Which of the following directive is used to link an assembly to a page or user control?
+@Assembly
+The CLR is physically represented by an assembly named ____
+mscoree.dll
+In C#, a subroutine is called a ___
+Method
+In C#, all binary operators are ___
+Left-associative
+Arrays in C# are ______ objects.
+Reference
+C# does not support _____ constructors.
+parameter-less
+The theory of _____ implies that user can control the access to a class, method, or variable.
+encapsulation
+We can use reserved keywords as identifiers in C# by prefixing them with which character?
+@
+Which of the following converts a type to a byte value in C#?
+ToByte()
+Which of the following access specifier in C# allows a child class to access the member variables and member functions of its base class?
+Protected
+C# does not support multiple inheritances because
+Name collision
