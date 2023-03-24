@@ -15,7 +15,8 @@ namespace Codility
                 else
                     return 1;
                 
-            }    
+            } 
+           
 
             A = A.Order().ToArray();
             int negativeIndex = -1;

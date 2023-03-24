@@ -39,11 +39,15 @@ using Codility;
 
 
 
-PassingCars pc = new PassingCars();
-Console.WriteLine(pc.solution(new int[]{0,1,0,1,1}));
+// PassingCars pc = new PassingCars();
+// Console.WriteLine(pc.solution(new int[]{0,1,0,1,1}));
 // int test = 1000000000;
 // Console.WriteLine(test);
 
+
+
+CountDiv codiv = new CountDiv();
+Console.WriteLine(codiv.solution(6,6,2));
 
 //  static void printArray(int[] dato)
 // {
